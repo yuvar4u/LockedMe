@@ -24,7 +24,7 @@ public class MainClass {
 			System.out.println("Eg : C:\\Work\\FullStack");
 			Scanner scanner = new Scanner(System.in);
 			folderLocation	= scanner.next();	
-			folderLocation="C:\\Work\\Test";
+			//folderLocation="C:\\Work\\Test";
 			
 			File folder = new File(folderLocation);
 			if (!folder.isDirectory()) {
